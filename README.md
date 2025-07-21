@@ -13,6 +13,14 @@ This project explores dynamic pricing strategies using historical Amazon sales d
 - **Visualize** profit outcomes and recommend optimal pricing adjustments.
 
 ---
+## Summary of the Solution
+
+- **Data Cleaning & Preprocessing:** Handled missing and inconsistent values, converted data types, and standardized columns such as price (`Selling Price`), quantity (`Qty`), and category.
+- **Feature Engineering:** Created simulated pricing and demand columns based on elasticity assumptions.
+- **Elasticity Modeling:** Used a simple demand model with assumed elasticity (`-1.5`) to simulate how demand reacts to ±10% price changes.
+- **Profit Simulation:** Calculated profit under different pricing strategies and summarized results at the category level.
+- **Visualization:** Plotted bar charts to compare simulated profits across categories for price increases vs. decreases.
+---
 
 ##  Files in this Repository
 
